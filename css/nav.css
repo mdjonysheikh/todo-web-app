@@ -1,0 +1,21 @@
+header {
+  background-color: cornsilk;
+  padding: 10px;
+}
+
+
+
+nav ul {
+  display: flex;
+  flex-direction: row; /* horizontal */
+  list-style: none;    /* remove bullets */
+  gap: 20px;           /* space between items */
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: brown;
+  font-weight: bold;
+}
